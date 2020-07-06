@@ -39,10 +39,14 @@ export const SecondDivToGrid = styled.div`
   width: 100%;
   height: 650px;
   @media (max-width: 1100px) {
-    height: 500px;
+    height: auto;
   }
   @media (max-width: 600px) {
     height: 350px;
+  }
+  @media (max-width: 550px) {
+    background-color: rgba(113, 202, 223, 0.47);
+    text-align: center;
   }
 `;
 
@@ -126,5 +130,9 @@ export const PhotoMe = styled.img`
   }
   @media (max-width: 600px) {
     height: 350px;
+  }
+  @media (max-width: 550px) {
+    width: 70%;
+    height: 70%;
   }
 `;
