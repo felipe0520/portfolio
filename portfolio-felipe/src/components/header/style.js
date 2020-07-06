@@ -15,6 +15,10 @@ export const WrapperMenu = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-right: 49px;
+  @media (max-width: 500px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 `;
 
 export const MyName = styled.span`
@@ -40,4 +44,7 @@ export const ItemMenu = styled.span`
   font-style: normal;
   line-height: normal;
   color: #377d8c;
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
 `;
