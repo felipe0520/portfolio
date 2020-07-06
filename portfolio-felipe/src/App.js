@@ -1,11 +1,11 @@
 import React from "react";
+import Header from "./components/header/index";
+import "./styleGeral/App.css";
 
 function App() {
   return (
     <div>
-      <header>
-        <span>App inicial</span>
-      </header>
+      <Header />
     </div>
   );
 }
