@@ -6,6 +6,8 @@ import AboutMe from "./page/aboutMe";
 import WhatDoIDo from "./page/WhatDoIDo";
 import Education from "./page/education";
 import Projects from "./page/projects";
+import HireMe from "./page/hireMe";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <WhatDoIDo />
       <Education />
       <Projects />
+      <HireMe />
+      <Footer />
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const WrapperSocialNetwork = styled.div`
-  display: grid;
+  display: flex;
   height: 200px;
-  grid-template-rows: repeat(4, 1fr);
+  ${(props) =>
+    props.horizontal ? " flex-direction:row;" : "flex-direction:column;"}
   gap: 24px;
   align-self: center;
   margin-left: 32px;
@@ -12,14 +13,13 @@ export const WrapperSocialNetwork = styled.div`
   }
   @media (max-width: 600px) {
     margin-right: 0vw;
-    grid-template-columns: repeat(4, 1fr);
     position: absolute;
-    top: 370px;
+    top: 350px;
     height: 50px;
-  }
-  @media (max-width: 415px) {
-    top: 300px;
+    flex-direction: row;
   }
 `;
 
-export const LogoSocialNetwork = styled.img``;
+export const LogoSocialNetwork = styled.img`
+  margin: 10px;
+`;
