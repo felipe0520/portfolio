@@ -1,8 +1,8 @@
 import React from "react";
-import CardInfo from "../../components/cardInfo/";
+import CardInfo from "../../components/cardInfo";
 import { Wrapper, Title, WrapperInfo } from "./style";
 
-export const OQueFaco = () => {
+export const WhatDoIDo = () => {
   return (
     <Wrapper>
       <Title>O que faço?</Title>
@@ -30,4 +30,4 @@ export const OQueFaco = () => {
   );
 };
 
-export default OQueFaco;
+export default WhatDoIDo;

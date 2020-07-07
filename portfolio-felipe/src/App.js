@@ -2,16 +2,16 @@ import React from "react";
 import Header from "./components/header/index";
 import "./styleGeral/App.css";
 import HomePage from "./page/home";
-import SobreMim from "./page/sobreMim";
-import OQueFaco from "./page/oQueFaco";
+import AboutMe from "./page/aboutMe";
+import WhatDoIDo from "./page/WhatDoIDo";
 
 function App() {
   return (
     <div>
       <Header />
       <HomePage />
-      <SobreMim />
-      <OQueFaco />
+      <AboutMe />
+      <WhatDoIDo />
     </div>
   );
 }
