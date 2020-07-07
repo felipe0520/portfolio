@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   height: 1284px;
   background-color: #bf3c3b;
+  @media (max-width: 800px) {
+    height: auto;
+  }
 `;
 
 export const Title = styled.h1`
@@ -27,6 +30,9 @@ export const WrapperProject = styled.div`
 export const WrapperCards = styled.div`
   display: flex;
   margin-top: 88px;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImgProject = styled.img`
