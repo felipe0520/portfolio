@@ -13,7 +13,7 @@ import Skil from "../../components/skil";
 
 const SobreMim = () => {
   return (
-    <WrapperSobreMim id="sobre-mim">
+    <WrapperSobreMim>
       <Photo src={require("../../image/sobreMim/SobreMim.jpg")} />
       <WrapperInfo>
         <Title>Sobre mim</Title>

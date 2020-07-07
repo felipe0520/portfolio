@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperHeader = styled.div`
+  position: fixed;
   width: 100vw;
   height: 60px;
   display: flex;

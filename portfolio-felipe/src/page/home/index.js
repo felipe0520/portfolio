@@ -13,7 +13,7 @@ import SocialNetWork from "../../components/SocialNetWorks/index";
 
 const HomePage = () => {
   return (
-    <WrapperPresentation id="home">
+    <WrapperPresentation id="sobre-mim">
       <FirstDivToGrid>
         <SocialNetWork />
         <Information>
