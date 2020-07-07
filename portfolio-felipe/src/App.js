@@ -4,6 +4,7 @@ import "./styleGeral/App.css";
 import HomePage from "./page/home";
 import AboutMe from "./page/aboutMe";
 import WhatDoIDo from "./page/WhatDoIDo";
+import Education from "./page/education";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <AboutMe />
       <WhatDoIDo />
+      <Education />
     </div>
   );
 }
