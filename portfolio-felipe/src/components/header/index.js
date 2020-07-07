@@ -6,9 +6,9 @@ const Header = () => {
     <WrapperHeader>
       <MyName>Felipe</MyName>
       <WrapperMenu>
-        <ItemMenu>Quem sou</ItemMenu>
-        <ItemMenu>Projetos</ItemMenu>
-        <ItemMenu>Contato</ItemMenu>
+        <ItemMenu href="#sobre-mim">Quem sou</ItemMenu>
+        <ItemMenu href="#projetos">Projetos</ItemMenu>
+        <ItemMenu href="#contrate-me">Contato</ItemMenu>
       </WrapperMenu>
     </WrapperHeader>
   );

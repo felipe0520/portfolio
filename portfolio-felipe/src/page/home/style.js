@@ -4,7 +4,6 @@ export const WrapperPresentation = styled.div`
   display: grid;
   height: 650px;
   grid-template-columns: 2fr 1fr;
-  width: 100vw;
 
   @media (max-width: 1100px) {
     height: 500px;
@@ -36,7 +35,6 @@ export const FirstDivToGrid = styled.div`
 `;
 
 export const SecondDivToGrid = styled.div`
-  width: 100%;
   height: 650px;
   @media (max-width: 1100px) {
     height: auto;

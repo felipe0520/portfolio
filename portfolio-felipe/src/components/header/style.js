@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperHeader = styled.div`
+  position: fixed;
   width: 100vw;
   height: 60px;
   display: flex;
@@ -35,7 +36,8 @@ export const MyName = styled.span`
   color: #377d8c;
 `;
 
-export const ItemMenu = styled.span`
+export const ItemMenu = styled.a`
+  text-decoration: none;
   height: 19px;
   font-family: Montserrat;
   font-size: 16px;
