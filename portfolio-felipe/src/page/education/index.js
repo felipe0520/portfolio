@@ -8,50 +8,28 @@ const Education = () => {
       <Title>Educação</Title>
       <WrapperCard>
         <CardEducation
-          title="Curso de Web Full Stack
-            na Labenu"
-          duration="6 meses - 2020"
-          description="
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad 
-            minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea 
-            commodo consequat. Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. "
+          title="Graduação em ciências biologicas"
+          duration="6 anos - 2018"
+          description="Graduação em ciências biológicas pela UFMG, na qual tive vivência no âmbito acadêmico
+          que proporcionou além de conteúdo relacioado a área da saúde, uma busca pelo conhecimento em geral, 
+           respeito as diferenças e ampliação de visão de mundo.  "
         />
         <CardEducation
           title="Curso de Web Full Stack
              na Labenu"
           duration="6 meses - 2020"
-          description="
-             Lorem ipsum dolor sit amet, 
-             consectetur adipiscing elit, 
-             sed do eiusmod tempor incididunt ut 
-             labore et dolore magna aliqua. Ut enim ad 
-             minim veniam, quis nostrud exercitation 
-             ullamco laboris nisi ut aliquip ex ea 
-             commodo consequat. Duis aute irure dolor 
-             in reprehenderit in voluptate velit esse cillum dolore eu 
-             fugiat nulla pariatur. "
+          description="A Labenu é uma startup que forma Desenvolvedores Web Full Stack prontos para o 
+          mercado de trabalho. São mais de 1000 horas de programação que faz com que seus 
+          alunos sejam profissionais completos tanto no Back-End quanto no Front End
+          Algumas dessas competências são:
+          - SQL - Javascript - HTML- CSS- Git- Amazon Web Service - Node.js
+          - React.js- Github- Typescript- Unit Testing- Firebase- Jest"
         />
 
         <CardEducation
-          title="Curso de Web Full Stack
-           na Labenu"
-          duration="6 meses - 2020"
-          description="
-           Lorem ipsum dolor sit amet, 
-           consectetur adipiscing elit, 
-           sed do eiusmod tempor incididunt ut 
-           labore et dolore magna aliqua. Ut enim ad 
-           minim veniam, quis nostrud exercitation 
-           ullamco laboris nisi ut aliquip ex ea 
-           commodo consequat. Duis aute irure dolor 
-           in reprehenderit in voluptate velit esse cillum dolore eu 
-           fugiat nulla pariatur. "
+          title="Cursos livres em informática"
+          description="Me dedico sempre a estudar conteúdos relacionados á tecnologia, e também
+          buscando consolidar temas já vistos. Como HTML, Javascript, CSS, Lógica de programação e limpeza de código. "
         />
       </WrapperCard>
     </WrapperEducation>

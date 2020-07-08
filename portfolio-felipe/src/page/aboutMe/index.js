@@ -3,7 +3,7 @@ import {
   WrapperSobreMim,
   WrapperInfo,
   Photo,
-  SubTitle,
+  Description,
   Title,
   WrapperSkils,
   Button,
@@ -18,7 +18,7 @@ const SobreMim = () => {
       <WrapperInfo>
         <Title>Sobre mim</Title>
 
-        <SubTitle>
+        <Description>
           Formado em ciências biológicas pela UFMG, atuei como docente na rede
           pública, monitor de zoologia na instituição. Também ajudei na gestão
           de um negócio familiar, lá tive contatos com clientes, fornecedores e
@@ -27,7 +27,7 @@ const SobreMim = () => {
           tive contato com javascript, react, redux, node. Fiz diversos projetos
           a carácter educacional, pondo em práticas vários conceitos como: MVC,
           SOLID, componentização, e reutilização dos mesmos.
-        </SubTitle>
+        </Description>
         <WrapperSkils>
           <Skil name="HTML" />
           <Skil name="CSS" />
@@ -35,8 +35,13 @@ const SobreMim = () => {
           <Skil name="React" />
           <Skil name="Node" />
         </WrapperSkils>
-        <Button>
-          <NameButton>CV em PDF</NameButton>
+        <Button
+          type="button"
+          target="_blank"
+          href="https://github.com/felipe0520/portfolio/blob/master/portfolio-felipe/curriculo/curriculo-Felipe-Ferraz.pdf"
+          rel="noopener noreferrer"
+        >
+          <NameButton>CV em PDF </NameButton>
         </Button>
       </WrapperInfo>
     </WrapperSobreMim>

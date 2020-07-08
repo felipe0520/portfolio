@@ -3,7 +3,12 @@ import { WrapperButton, NameButton } from "./style";
 
 const CustonButton = (props) => {
   return (
-    <WrapperButton>
+    <WrapperButton
+      type="button"
+      target="_blank"
+      href={props.href}
+      rel="noopener noreferrer"
+    >
       <NameButton>{props.nameButton}</NameButton>
     </WrapperButton>
   );
