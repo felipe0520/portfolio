@@ -47,7 +47,7 @@ const Projects = () => {
             description="Implementação de back-end baseado em rede social, funcional que permita
             interação entre usuários com validações, tokens. Tendo os seguintes endpoints: Cadastro,
             login, fazer amizade, desfazer, criar post, ver o feed. Foi utilizado banco de dados MySQL "
-            nameButton="back-en GitHub"
+            nameButton="ver no Github"
             href="https://github.com/felipe0520/labook"
           />
         </WrapperCards>

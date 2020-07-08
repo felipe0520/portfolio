@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: 800px) {
+    align-items: center;
+  }
 `;
 
 export const Title = styled.h1`
@@ -31,4 +34,7 @@ export const Description = styled.p`
   font-size: 14px;
   letter-spacing: 0.5px;
   color: #ffffff;
+  @media (max-width: 800px) {
+    width: 300px;
+  }
 `;

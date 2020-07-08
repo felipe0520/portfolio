@@ -7,7 +7,6 @@ export const WrapperSobreMim = styled.div`
   justify-content: space-around;
   @media (max-width: 700px) {
     flex-direction: column;
-    border: 1px solid red;
     height: auto;
     align-items: center;
   }
