@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperCard = styled.div`
   width: 327px;
-  height: 268px;
+  height: 295px;
   border-radius: 8px;
   background-color: #ffffff;
   display: flex;
@@ -18,11 +18,8 @@ export const Title = styled.h1`
   width: 262px;
   height: 50px;
   font-family: Montserrat;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.28px;
   color: #377d8c;
 `;
@@ -31,14 +28,9 @@ export const WrapperDescription = styled.div`
   width: 267px;
   height: 122px;
   font-family: Montserrat;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.16px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
   color: #377d8c;
-  border: 1px solid red;
 `;
 
 export const Duration = styled.p`

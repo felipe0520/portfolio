@@ -8,13 +8,9 @@ export const WrapperPresentation = styled.div`
   @media (max-width: 1100px) {
     height: 500px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     height: 350px;
-  }
-  @media (max-width: 550px) {
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-    height: auto;
+    padding-top: 60px;
   }
 `;
 
@@ -26,7 +22,7 @@ export const FirstDivToGrid = styled.div`
   @media (max-width: 1100px) {
     height: 500px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     height: 350px;
   }
   @media (max-width: 415px) {
@@ -42,7 +38,7 @@ export const SecondDivToGrid = styled.div`
   @media (max-width: 600px) {
     height: 350px;
   }
-  @media (max-width: 550px) {
+  @media (max-width: 650px) {
     background-color: rgba(113, 202, 223, 0.47);
     text-align: center;
   }
@@ -57,13 +53,10 @@ export const Information = styled.div`
   @media (max-width: 1100px) {
     width: 400px;
   }
-  @media (max-width: 690px) {
+  @media (max-width: 800px) {
     margin-right: 0vw;
-  }
-  @media (max-width: 550px) {
     width: 100%;
     height: 280px;
-    border: 1px solid red;
   }
 `;
 
@@ -81,8 +74,8 @@ export const Title = styled.h1`
   @media (max-width: 1100px) {
     width: 100%;
   }
-  @media (max-width: 550px) {
-    font-size: 40px;
+  @media (max-width: 800px) {
+    font-size: 35px;
   }
 `;
 
@@ -126,11 +119,7 @@ export const PhotoMe = styled.img`
   @media (max-width: 1100px) {
     height: 500px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     height: 350px;
-  }
-  @media (max-width: 550px) {
-    width: 70%;
-    height: 70%;
   }
 `;

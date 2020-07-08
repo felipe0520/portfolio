@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperSobreMim = styled.div`
-  height: 438px;
+  height: 500px;
   background-color: #377d8c;
   display: flex;
   justify-content: space-around;
@@ -58,13 +58,9 @@ export const Title = styled.h1`
 
 export const Description = styled.span`
   width: 368px;
-  height: 122px;
+  height: 170px;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 40px;
@@ -97,7 +93,6 @@ export const Button = styled.a`
 `;
 
 export const NameButton = styled.span`
-  width: 79px;
   height: 18px;
   font-family: Montserrat;
   font-size: 14px;

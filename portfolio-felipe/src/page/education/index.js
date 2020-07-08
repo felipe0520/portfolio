@@ -18,11 +18,9 @@ const Education = () => {
           title="Curso de Web Full Stack
              na Labenu"
           duration="6 meses - 2020"
-          description="A Labenu é uma startup que forma Desenvolvedores Web Full Stack prontos para o 
-          mercado de trabalho. São mais de 1000 horas de programação que faz com que seus 
-          alunos sejam profissionais completos tanto no Back-End quanto no Front End
-          Algumas dessas competências são:
-          - SQL - Javascript - HTML- CSS- Git- Amazon Web Service - Node.js
+          description="Curso com mais de 1000 horas de programação, tendo disciplinas
+           tanto no Back-End quanto no Front End.
+          Algumas das copetências estudadas: SQL - Javascript - HTML- CSS- Git- Amazon Web Service - Node.js
           - React.js- Github- Typescript- Unit Testing- Firebase- Jest"
         />
 

@@ -14,7 +14,6 @@ export const WrapperCard = styled.div`
   }
 `;
 export const Title = styled.h1`
-  width: 218px;
   height: 52px;
   font-family: Montserrat;
   font-size: 42px;
