@@ -19,13 +19,14 @@ const SobreMim = () => {
         <Title>Sobre mim</Title>
 
         <SubTitle>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Formado em ciências biológicas pela UFMG, atuei como docente na rede
+          pública, monitor de zoologia na instituição. Também ajudei na gestão
+          de um negócio familiar, lá tive contatos com clientes, fornecedores e
+          na produção. Amante da tecnologia a bastante tempo, tomei a decisão de
+          migrar de área. Atualmente sou estudante web developer na Labenu_ e
+          tive contato com javascript, react, redux, node. Fiz diversos projetos
+          a carácter educacional, pondo em práticas vários conceitos como: MVC,
+          SOLID, componentização, e reutilização dos mesmos.
         </SubTitle>
         <WrapperSkils>
           <Skil name="HTML" />

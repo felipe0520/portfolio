@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const WrapperSocialNetwork = styled.div`
   display: flex;
-  height: 200px;
   ${(props) =>
     props.horizontal ? " flex-direction:row;" : "flex-direction:column;"}
   gap: 24px;
@@ -20,6 +19,8 @@ export const WrapperSocialNetwork = styled.div`
   }
 `;
 
-export const LogoSocialNetwork = styled.img`
-  margin: 10px;
+export const LogoSocialNetwork = styled.img``;
+
+export const WrapperLink = styled.div`
+  margin: 25px;
 `;
