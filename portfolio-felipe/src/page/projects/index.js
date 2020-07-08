@@ -39,7 +39,7 @@ const Projects = () => {
           <ImgProject src={require("../../image/project/4food.png")} />
         </WrapperCards>
         <WrapperCards>
-          <ImgProject src={require("../../image/project/reddit.png")} />
+          <ImgProject src={require("../../image/project/labook.jpg")} />
 
           <CardProject
             title="Labook"
