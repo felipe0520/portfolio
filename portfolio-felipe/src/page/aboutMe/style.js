@@ -56,17 +56,18 @@ export const Title = styled.h1`
   }
 `;
 
-export const SubTitle = styled.span`
+export const Description = styled.span`
   width: 368px;
   height: 122px;
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.16px;
   color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
   @media (max-width: 400px) {
     height: auto;
     width: 300px;
@@ -80,7 +81,7 @@ export const WrapperSkils = styled.div`
   justify-content: space-around;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 140px;
   height: 30px;
   border-radius: 8px;
@@ -88,6 +89,11 @@ export const Button = styled.button`
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-color: #4eaccf;
   margin-top: 32px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 `;
 
 export const NameButton = styled.span`
@@ -100,6 +106,4 @@ export const NameButton = styled.span`
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.28px;
-  text-align: center;
-  color: #ffffff;
 `;

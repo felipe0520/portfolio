@@ -10,7 +10,7 @@ const CardProject = (props) => {
       <SubTitle>{props.subtitle}</SubTitle>
       <Description>{props.description}</Description>
       <div>
-        <CustonButton nameButton={props.nameButton} />
+        <CustonButton nameButton={props.nameButton} href={props.href} />
         {props.buttonSecondary && (
           <CustonButton nameButton={props.nameButtonSecondary} />
         )}

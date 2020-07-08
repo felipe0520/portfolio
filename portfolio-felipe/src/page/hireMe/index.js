@@ -9,7 +9,7 @@ const HireMe = () => {
       <Description>
         Procuro oportunidade de trabalho onde eu possa aprender, me desenvolver
         e evoluir na minha carreia profissional. E-mail para contato:
-        email@email.com.br Celular: (xx) xxxxx-xxxx
+        felipeefrz@gmail.com Celular: (31) 98229-9943
       </Description>
       <SocialNetWork horizontal />
     </Wrapper>
