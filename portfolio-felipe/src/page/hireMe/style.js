@@ -23,15 +23,13 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   width: 523px;
-  height: 110px;
   font-family: Montserrat;
   font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.24px;
   text-align: center;
   color: #ffffff;
   margin: auto;
+  @media (max-width: 600px) {
+    width: 350px;
+  }
 `;

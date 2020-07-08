@@ -13,9 +13,6 @@ export const Title = styled.h1`
   font-family: Montserrat;
   font-size: 25px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
   text-align: center;
   color: #ffffff;
