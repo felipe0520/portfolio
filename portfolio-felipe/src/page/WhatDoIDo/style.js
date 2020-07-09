@@ -1,12 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  height: 500px;
   background-color: #4eaccf;
   padding-bottom: 25px;
-  @media (max-width: 600px) {
-    height: 600px;
-  }
 `;
 
 export const WrapperInfo = styled.div`
