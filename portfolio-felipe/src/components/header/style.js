@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const WrapperHeader = styled.div`
   position: fixed;
-  width: 100vw;
   height: 60px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fffffb;
 `;
 export const WrapperMenu = styled.div`
-  width: 300px;
   margin-left: 49px;
   display: flex;
   justify-content: space-around;
@@ -24,7 +23,6 @@ export const WrapperMenu = styled.div`
 
 export const MyName = styled.span`
   margin-left: 32px;
-  width: 100px;
   height: 25px;
   font-family: Montserrat;
   font-size: 21px;
