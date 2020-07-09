@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperEducation = styled.div`
   height: 441px;
-  background-color: #8fcbd9;
+  background-color: #d97824;
   @media (max-width: 1060px) {
     height: auto;
   }
@@ -18,7 +18,7 @@ export const Title = styled.h1`
   font-weight: bold;
   letter-spacing: -0.15px;
   text-align: center;
-  color: #377d8c;
+  color: #fff;
 `;
 
 export const WrapperCard = styled.div`

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   padding-top: 60px;
   height: 1284px;
-  background-color: #bf3c3b;
+  background-color: #f2f2f2;
   @media (max-width: 800px) {
     height: auto;
   }
@@ -15,7 +15,7 @@ export const Title = styled.h1`
   font-weight: bold;
   letter-spacing: -0.15px;
   text-align: center;
-  color: #ffffff;
+
   padding-top: 43px;
 `;
 

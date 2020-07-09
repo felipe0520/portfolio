@@ -10,9 +10,8 @@ export const WhatDoIDo = () => {
         <CardInfo
           title="Front-end"
           description="Desenvolvimento de aplicações
-      web utilizando HTML, CSS,
-      JavaScript e react.
-      Criação de sites responsivos que tem interação com o usuário"
+      web utilizando HTML, CSS, JavaScript, react, styled-components, material-ui
+      Criação de sites responsivos interativos "
         />
         <CardInfo
           title="Back-end"

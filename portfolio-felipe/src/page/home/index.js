@@ -19,7 +19,7 @@ const HomePage = () => {
         <Information>
           <Title>Eu sou Felipe Ferraz</Title>
           <SubTitle>Desenvolvedor Web Full Stack</SubTitle>
-          <Description>Apaixonado por tecnologia e programação</Description>
+          <Description>Adicionar descrição</Description>
         </Information>
       </FirstDivToGrid>
       <SecondDivToGrid>

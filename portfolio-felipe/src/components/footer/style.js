@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperFooter = styled.div`
   height: 60px;
-  background-color: #000000;
+  background-color: #4eaccf;
   display: flex;
   align-items: center;
   padding-left: 60px;

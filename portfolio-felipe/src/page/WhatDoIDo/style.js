@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  height: 418px;
-  background-color: #0d0d0d;
+  height: 500px;
+  background-color: #4eaccf;
+  padding-bottom: 25px;
   @media (max-width: 600px) {
     height: 600px;
   }
@@ -11,7 +12,7 @@ export const Wrapper = styled.div`
 export const WrapperInfo = styled.div`
   display: flex;
   justify-content: center;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     flex-direction: column;
   }
 `;
