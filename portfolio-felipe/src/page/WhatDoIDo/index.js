@@ -10,14 +10,18 @@ export const WhatDoIDo = () => {
         <CardInfo
           title="Front-end"
           description="Desenvolvimento de aplicações
-      web utilizando HTML, CSS, JavaScript, react, styled-components, material-ui
-      Criação de sites responsivos interativos "
+      web utilizando HTML, CSS, JavaScript, react,redux, redux-thunk,moment, styled-components, material-ui,
+      axios, jest.
+      "
+          descriptionTwo="Criação de sites responsivos e interativos. 
+      "
         />
         <CardInfo
           title="Back-end"
           description="Aplicações utilizando NodeJS,
-        Typescript e MySQL.
-        Criação de API´s para
+        Typescript, express, uuid,jwt, jest, knex,moment,dotenv bcrypt  e MySQL.
+       "
+          descriptionTwo="Criação de API´s para
         comunicação com front-end
         seguindo princípio de Clean Code."
         />
