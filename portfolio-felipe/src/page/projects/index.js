@@ -41,7 +41,7 @@ const Projects = () => {
           />
         </WrapperCards>
         <WrapperCards>
-          <ImgProject src={require("../../image/project/macbook.png")} />
+          <ImgProject src={require("../../image/project/backend.jpg")} />
 
           <CardProject
             title="Labook"
