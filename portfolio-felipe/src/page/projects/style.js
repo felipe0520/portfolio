@@ -28,6 +28,7 @@ export const WrapperProject = styled.div`
 export const WrapperCards = styled.div`
   display: flex;
   margin-top: 88px;
+
   @media (max-width: 800px) {
     flex-direction: column;
   }
