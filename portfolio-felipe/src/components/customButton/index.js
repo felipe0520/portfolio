@@ -8,6 +8,7 @@ const CustonButton = (props) => {
       target="_blank"
       href={props.href}
       rel="noopener noreferrer"
+      color={props.color}
     >
       <NameButton>{props.nameButton}</NameButton>
     </WrapperButton>

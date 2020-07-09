@@ -15,7 +15,7 @@ export const WrapperPresentation = styled.div`
 `;
 
 export const FirstDivToGrid = styled.div`
-  background-color: rgba(113, 202, 223, 0.47);
+  background-color: #8d1c31;
   display: flex;
   justify-content: space-between;
   height: 650px;
@@ -70,7 +70,7 @@ export const Title = styled.h1`
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.29px;
-  color: #337d8d;
+  color: #fff;
   @media (max-width: 1100px) {
     width: 100%;
   }
@@ -80,16 +80,11 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h2`
-  width: 369px;
   height: 29px;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.32px;
-  color: var(--dirty-blue);
+  color: #fff;
   @media (max-width: 1100px) {
     font-size: 15px;
     width: 100%;
@@ -101,12 +96,9 @@ export const Description = styled.h3`
   height: 19px;
   font-family: Montserrat;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
+  margin-top: 6px;
   letter-spacing: -0.22px;
-  color: #626262;
+  color: #fff;
   @media (max-width: 1100px) {
     font-size: 10px;
     width: 100%;

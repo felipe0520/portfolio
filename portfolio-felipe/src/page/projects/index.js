@@ -14,9 +14,10 @@ const Projects = () => {
       <Title>Meus Projetos</Title>
       <WrapperProject>
         <WrapperCards>
-          <ImgProject src={require("../../image/project/reddit.png")} />
+          <ImgProject src={require("../../image/project/imac.png")} />
 
           <CardProject
+            color="red"
             title="4Eddit"
             subtitle=" Front-end"
             description="Implementação  de uma rede social funcional, similar a reddit,
@@ -27,7 +28,9 @@ const Projects = () => {
           />
         </WrapperCards>
         <WrapperCards>
+          <ImgProject src={require("../../image/project/ipad.png")} />
           <CardProject
+            color="blue"
             title="4Food"
             subtitle=" Front-end"
             description="Implementação de uma aplicação web para ambiente mobile, similar a app
@@ -36,10 +39,9 @@ const Projects = () => {
             nameButton="ver no Github"
             href="https://github.com/felipe0520/4food"
           />
-          <ImgProject src={require("../../image/project/4food.png")} />
         </WrapperCards>
         <WrapperCards>
-          <ImgProject src={require("../../image/project/labook.jpg")} />
+          <ImgProject src={require("../../image/project/macbook.png")} />
 
           <CardProject
             title="Labook"

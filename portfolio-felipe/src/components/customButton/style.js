@@ -6,7 +6,12 @@ export const WrapperButton = styled.a`
   border-radius: 8px;
   border: none;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  background-color: #4eaccf;
+  ${(props) =>
+    props.color === "red"
+      ? "background-color: #8d1c31;"
+      : props.color === "blue"
+      ? "background-color: #4eaccf;"
+      : "background-color: #d97824;"}
   margin-top: 32px;
   text-decoration: none;
   display: flex;
