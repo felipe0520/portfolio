@@ -6,6 +6,8 @@ const CardInfo = (props) => {
     <WrapperCard>
       <Title>{props.title}</Title>
       <Description>{props.description}</Description>
+      <Description>{props.descriptionTwo}</Description>
+      <Description>{props.descriptionThree}</Description>
     </WrapperCard>
   );
 };
