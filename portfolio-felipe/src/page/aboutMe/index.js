@@ -45,7 +45,7 @@ const SobreMim = () => {
         <Button
           type="button"
           target="_blank"
-          href="https://github.com/felipe0520/portfolio/blob/master/portfolio-felipe/curriculo/curriculo-Felipe-Ferraz.pdf"
+          href="https://drive.google.com/file/d/1gAi8Ia9J9WiQpu_RCaMyeYkJaEi2cjue/view"
           rel="noopener noreferrer"
         >
           <NameButton>CV em PDF </NameButton>

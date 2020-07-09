@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperEducation = styled.div`
-  height: 441px;
   background-color: #d97824;
-  @media (max-width: 1060px) {
-    height: auto;
-  }
 `;
 
 export const Title = styled.h1`
@@ -24,7 +20,8 @@ export const Title = styled.h1`
 export const WrapperCard = styled.div`
   display: flex;
   justify-content: center;
-  @media (max-width: 1060px) {
+  padding-bottom: 40px;
+  @media (max-width: 950px) {
     flex-direction: column;
     align-items: center;
   }

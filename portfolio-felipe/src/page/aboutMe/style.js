@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WrapperSobreMim = styled.div`
   background-color: #063447;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   @media (max-width: 850px) {
     flex-direction: column;
     align-items: center;
@@ -11,14 +11,9 @@ export const WrapperSobreMim = styled.div`
 `;
 
 export const Photo = styled.img`
-  width: 305px;
-  height: 305px;
-  margin-top: 150px;
-  margin-right: 15vw;
-
-  @media (max-width: 850px) {
-    margin-left: 0;
-    margin-right: 0;
+  @media (max-width: 450px) {
+    width: 50%;
+    height: 50%;
   }
 `;
 
@@ -27,53 +22,32 @@ export const WrapperInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 69px;
+  width: 50%;
 `;
-export const Title = styled.h1`
-  height: 52px;
+export const Title = styled.h3`
   font-family: Montserrat;
   font-size: 42px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.32px;
-  margin-bottom: 20px;
-  @media (max-width: 850px) {
-    text-align: center;
-  }
-  @media (max-width: 400px) {
-    height: 40px;
-    margin: 30px auto;
-  }
+  text-align: center;
 `;
 
 export const Description = styled.span`
-  width: 500px;
+  margin-top: 20px;
   font-family: Montserrat;
   font-size: 15px;
   color: #ffffff;
   letter-spacing: 1.5px;
   margin-bottom: 40px;
-  @media (max-width: 700px) {
-    width: 400px;
-    text-align: center;
-    margin: auto;
-  }
-  @media (max-width: 450px) {
-    width: 300px;
-  }
+  text-align: center;
 `;
 
 export const WrapperSkils = styled.div`
-  width: 450px;
-  margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   @media (max-width: 450px) {
-    width: auto;
     flex-direction: column;
-    height: 300px;
-    margin: 10px auto;
+    align-items: center;
   }
 `;
 
@@ -95,9 +69,5 @@ export const NameButton = styled.span`
   height: 18px;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.28px;
 `;

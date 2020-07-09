@@ -1,36 +1,34 @@
 import styled from "styled-components";
 
 export const WrapperCard = styled.div`
-  width: 327px;
-  height: 295px;
   border-radius: 8px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  margin: 0 10px;
-  align-items: center;
-  @media (max-width: 1060px) {
-    margin: 10px 0;
+  margin: 0 25px;
+  max-width: 300px;
+  @media (max-width: 950px) {
+    margin: 20px 0;
   }
 `;
 export const Title = styled.h1`
   margin: 33px 0 12px 0;
-  width: 262px;
   height: 50px;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: -0.28px;
   color: #377d8c;
+  text-align: center;
 `;
 
 export const WrapperDescription = styled.div`
-  width: 267px;
-  height: 122px;
+  text-align: justify;
   font-family: Montserrat;
-  font-size: 14px;
-  letter-spacing: 0.4px;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #377d8c;
+  margin: 20px;
 `;
 
 export const Duration = styled.p`

@@ -10,26 +10,21 @@ export const WrapperHeader = styled.div`
   background-color: #fffffb;
 `;
 export const WrapperMenu = styled.div`
-  margin-left: 49px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 49px;
-  @media (max-width: 500px) {
-    margin-left: 10px;
-    margin-right: 10px;
+  width: 30%;
+  @media (max-width: 700px) {
+    width: 50%;
   }
 `;
 
-export const MyName = styled.span`
+export const MyName = styled.p`
   margin-left: 32px;
   height: 25px;
   font-family: Montserrat;
   font-size: 21px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.28px;
   color: #377d8c;
 `;

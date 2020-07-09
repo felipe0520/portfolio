@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  width: 45%;
   ${(props) =>
     props.color === "red"
       ? "color: #8d1c31;"
@@ -12,34 +13,29 @@ export const Wrapper = styled.div`
 
   @media
     (max-width: 800px) {
-    align-items: center;
+    width: 90%;
   }
 `;
 
 export const Title = styled.h1`
-  width: 172px;
   height: 52px;
   font-family: Montserrat;
   font-size: 42px;
   font-weight: bold;
-  letter-spacing: -0.25px;
+  text-align: center;
 `;
 
-export const SubTitle = styled.h4`
-  height: 25px;
+export const SubTitle = styled.p`
   font-family: Montserrat;
   margin-bottom: 20px;
   font-size: 21px;
-  letter-spacing: -0.28px;
 `;
 
 export const Description = styled.p`
-  width: 368px;
   height: 122px;
   font-family: Montserrat;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  text-align: justify;
   @media (max-width: 800px) {
-    width: 300px;
   }
 `;

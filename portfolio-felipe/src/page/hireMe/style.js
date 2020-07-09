@@ -11,9 +11,6 @@ export const Title = styled.h1`
   font-family: Montserrat;
   font-size: 42px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.25px;
   text-align: center;
   color: #ffffff;
@@ -22,14 +19,10 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
-  width: 523px;
   font-family: Montserrat;
   font-size: 18px;
   letter-spacing: -0.24px;
   text-align: center;
   color: #ffffff;
-  margin: auto;
-  @media (max-width: 600px) {
-    width: 350px;
-  }
+  height: 180px;
 `;

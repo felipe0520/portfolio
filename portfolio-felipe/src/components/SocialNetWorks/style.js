@@ -14,7 +14,6 @@ export const WrapperSocialNetwork = styled.div`
     height: 50px;
     flex-direction: row;
     gap: 0;
-    width: 50vw;
     margin: 0;
   }
 `;

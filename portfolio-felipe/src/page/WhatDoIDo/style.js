@@ -10,17 +10,14 @@ export const WrapperInfo = styled.div`
   justify-content: center;
   @media (max-width: 800px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
 
 export const Title = styled.h1`
-  height: 30px;
   font-family: Montserrat;
   font-size: 25px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
   text-align: center;
   color: #ffffff;
