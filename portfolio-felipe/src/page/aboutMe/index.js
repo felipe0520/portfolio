@@ -8,7 +8,6 @@ import {
   WrapperSkils,
   Button,
   NameButton,
-  WrapperPhoto,
 } from "./style";
 import Skil from "../../components/skil";
 

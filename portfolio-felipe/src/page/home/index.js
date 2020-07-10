@@ -6,7 +6,6 @@ import {
   Description,
   Information,
   PhotoMe,
-  WrapperPhoto,
 } from "./style";
 import SocialNetWork from "../../components/SocialNetWorks/index";
 
@@ -17,7 +16,7 @@ const HomePage = () => {
       <Information>
         <Title>Eu sou Felipe Ferraz</Title>
         <SubTitle>Desenvolvedor Web Full Stack</SubTitle>
-        <Description>Adicionar descrição</Description>
+        <Description>Aprendendo novas tecnologias</Description>
       </Information>
       <PhotoMe src={require("../../image/homePage/Felipe.jpeg")}></PhotoMe>
     </WrapperPresentation>
