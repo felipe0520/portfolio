@@ -6,6 +6,7 @@ import {
   Description,
   Information,
   PhotoMe,
+  WrapperPhoto,
 } from "./style";
 import SocialNetWork from "../../components/SocialNetWorks/index";
 

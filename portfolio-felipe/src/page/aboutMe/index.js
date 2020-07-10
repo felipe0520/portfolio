@@ -8,6 +8,7 @@ import {
   WrapperSkils,
   Button,
   NameButton,
+  WrapperPhoto,
 } from "./style";
 import Skil from "../../components/skil";
 
@@ -15,6 +16,7 @@ const SobreMim = () => {
   return (
     <WrapperSobreMim>
       <Photo src={require("../../image/sobreMim/img.svg")} />
+
       <WrapperInfo>
         <Title>Sobre mim</Title>
 
@@ -31,7 +33,7 @@ const SobreMim = () => {
           entrei na Labenu_ Como acadêmico de Web Full Stack tive contato com
           javascript, react, redux, node. AWS, jest, typescript, github. Sendo a
           conclusão em julho de 2020. Fiz diversos projetos a carácter
-          educacional, pondo em práticas vários conceitos como: MVC, SOLID,
+          educacional, pondo em práticas conceitos como: MVC, SOLID,
           componentização, e reutilização dos mesmos.
         </Description>
         <WrapperSkils>

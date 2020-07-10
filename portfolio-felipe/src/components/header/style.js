@@ -8,6 +8,9 @@ export const WrapperHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: #fffffb;
+  @media (max-width: 700px) {
+    height: 45px;
+  }
 `;
 export const WrapperMenu = styled.div`
   display: flex;
@@ -15,7 +18,7 @@ export const WrapperMenu = styled.div`
   align-items: center;
   width: 30%;
   @media (max-width: 700px) {
-    width: 50%;
+    width: 55%;
   }
 `;
 

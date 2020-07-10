@@ -4,7 +4,7 @@ export const WrapperSkils = styled.div`
   display: flex;
   margin: 15px;
   @media (max-width: 850px) {
-    width: 35%;
+    width: 45%;
     margin: 5px;
   }
 `;

@@ -11,9 +11,10 @@ export const WrapperSobreMim = styled.div`
 `;
 
 export const Photo = styled.img`
-  @media (max-width: 450px) {
-    width: 50%;
-    height: 50%;
+  @media (max-width: 850px) {
+    width: 25%;
+    height: 25%;
+    margin-top: 10px;
   }
 `;
 
@@ -32,14 +33,15 @@ export const Title = styled.h3`
   text-align: center;
 `;
 
-export const Description = styled.span`
+export const Description = styled.p`
   margin-top: 20px;
   font-family: Montserrat;
   font-size: 15px;
   color: #ffffff;
   letter-spacing: 1.5px;
   margin-bottom: 40px;
-  text-align: center;
+  width: 120%;
+  align-self: center;
 `;
 
 export const WrapperSkils = styled.div`

@@ -5,6 +5,9 @@ export const WrapperPresentation = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
+  @media (max-width: 700px) {
+    padding-top: 45px;
+  }
 `;
 export const Information = styled.div`
   display: flex;
@@ -44,6 +47,7 @@ export const Description = styled.h3`
 `;
 
 export const PhotoMe = styled.img`
+  opacity: 0.8;
   max-width: 25%;
   max-height: 25%;
 `;
